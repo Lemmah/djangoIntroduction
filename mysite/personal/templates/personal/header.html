@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jame Lemayian </title>
+    {% load staticfiles %}
+    <link rel='stylesheet' href={% static 'personal/css/bootstrap.min.css' type='text/css' %} />
+</head>
+<body>
+<div>
+    <p> I'm from the header file, always present </p>
+    {% block content %}
+    {% endblock %}
+</div>
+</body>
+</html>
